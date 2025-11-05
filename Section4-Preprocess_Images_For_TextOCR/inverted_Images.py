@@ -33,3 +33,4 @@ cv.imwrite("Section4-Preprocess_Images_For_TextOCR/temp/inverted.jpg", inverted_
 display("Section4-Preprocess_Images_For_TextOCR/temp/inverted.jpg")
 
 cv.waitKey(0)
+
