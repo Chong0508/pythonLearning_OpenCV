@@ -56,8 +56,8 @@ def deskew(cvImage):
   
 # Rotate the image to the best view angle
 fixed = deskew(new)
-cv.imwrite("Section4-Preprocess_Images_For_TextOCR/rotated_fixed.jpg", fixed)
-rotated_fixed = cv.imread("Section4-Preprocess_Images_For_TextOCR/rotated_fixed.jpg")
+cv.imwrite("Section4-Preprocess_Images_For_TextOCR/temp/rotated_fixed.jpg", fixed)
+rotated_fixed = cv.imread("Section4-Preprocess_Images_For_TextOCR/temp/rotated_fixed.jpg")
 cv.imshow("Rotated Fixed", rotated_fixed)
 
 cv.waitKey(0)
