@@ -18,7 +18,7 @@ def noise_removal(image):
   return (image)
 
 no_noise = noise_removal(im_bw)
-# cv.imwrite("Section4-Preprocess_Images_For_TextOCR/temp/no_noise.jpg", no_noise)
+cv.imwrite("Section4-Preprocess_Images_For_TextOCR/temp/no_noise.jpg", no_noise)
 cv.imshow('No Noise Image', no_noise)
 
 cv.waitKey(0)
